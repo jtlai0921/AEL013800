@@ -1,0 +1,62 @@
+{
+   "english":[
+      {
+         "isbn":"978-111-818-348-9",
+         "year":2012,
+         "price":1750,
+         "title":"Professional Android Sensor Programming",
+         "author":"Greg Milette",
+         "publisher":"Wiley"
+      },
+      {
+         "isbn":"978-143-023-930-7",
+         "year":2012,
+         "price":1750,
+         "title":"Pro Android 4",
+         "author":"Satya Komatineni",
+         "publisher":"Apress"
+      },
+      {
+         "isbn":"978-143-023-987-1",
+         "year":2011,
+         "price":1400,
+         "title":"Beginning Android 4 Games Development",
+         "author":"Mario Zechner",
+         "publisher":"Apress"
+      }
+   ],
+   "chinese":[
+      {
+         "isbn":"978-986-276-397-1",
+         "year":2011,
+         "price":480,
+         "title":"Android初學特訓班",
+         "author":"鄧文淵",
+         "publisher":"碁峰"
+      },
+      {
+         "isbn":"978-986-276-313-1",
+         "year":2012,
+         "price":680,
+         "title":"Android應用程式開發實戰",
+         "author":"林城",
+         "publisher":"碁峰"
+      },
+      {
+         "isbn":"978-986-201-410-3",
+         "year":2011,
+         "price":620,
+         "title":"深入淺出Android遊戲程式開發範例大全",
+         "author":"吳亞峰",
+         "publisher":"博碩"
+      },
+      {
+         "isbn":"978-986-201-449-3",
+         "year":2011,
+         "price":580,
+         "title":"深入淺出Android專題實作",
+         "author":"郭宏志",
+         "publisher":"博碩"
+      }
+   ]
+}

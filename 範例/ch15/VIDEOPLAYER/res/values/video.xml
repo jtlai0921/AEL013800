@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="videofile">
+		<item >scrat_1.mp4</item>
+		<item >scrat_2.mp4</item>
+		<item >scrat_3.mp4</item>
+	</string-array>  
+	<string-array name="videoname">
+		<item >Dawn of the dinosaurs</item>
+		<item >Funniest Scrat Moments</item>
+		<item >Continental Crack-Up</item>
+	</string-array> 
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">MULTIEVENTS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Lab 7.2 - Multiple Events</string>
+
+</resources>

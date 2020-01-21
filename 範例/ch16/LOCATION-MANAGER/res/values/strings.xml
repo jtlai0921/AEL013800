@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LOCATION-MANAGER</string>
+    <string name="hello_world">Hello world!</string>   
+    <string name="title_activity_main">Lab 16.2 - Using LocationManager</string>
+    <string name="menu_settings">Settings</string>
+</resources>

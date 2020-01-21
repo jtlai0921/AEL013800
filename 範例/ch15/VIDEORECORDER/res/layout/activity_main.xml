@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageRecord"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/btn_record" />
+
+    <ImageView
+        android:id="@+id/imageStop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/imageRecord"
+        android:src="@drawable/btn_stop" />
+
+    <ImageView
+        android:id="@+id/imageTurnoff"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/btn_turnoff" />
+
+    <ImageView
+        android:id="@+id/imagePlay"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@id/imageTurnoff"
+        android:src="@drawable/btn_play" />
+
+    <SurfaceView
+        android:id="@+id/surfaceView1"
+        android:layout_width="320dp"
+        android:layout_height="240dp"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

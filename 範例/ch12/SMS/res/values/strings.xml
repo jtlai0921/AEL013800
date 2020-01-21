@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">SMS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Lab 12.5 - Short Message Service</string>
+
+</resources>

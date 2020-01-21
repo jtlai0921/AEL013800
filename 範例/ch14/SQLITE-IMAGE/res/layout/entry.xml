@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imgCover"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imgCover"
+        android:text="TextView"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textAuthor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imgCover"
+        android:text="TextView"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textIsbn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAuthor"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imgCover"
+        android:text="TextView"
+        android:textSize="12dp" />
+
+<TextView
+    android:id="@+id/textOthers"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textIsbn"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_toRightOf="@id/imgCover"
+    android:text="TextView"
+    android:textSize="12dp" />
+
+</RelativeLayout>

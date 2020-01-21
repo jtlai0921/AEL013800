@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">EVENT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Lab 7.1 - Event Listener</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MAPVIEW</string>
+    <string name="hello_world">Hello world!</string>   
+    <string name="title_activity_main">Lab 16.1 - Using MapView</string>
+    <string name="menu_satellite">Satellite View</string>
+    <string name="menu_traffic">Traffic view</string>
+    <string name="menu_exit">Exit</string>
+</resources>

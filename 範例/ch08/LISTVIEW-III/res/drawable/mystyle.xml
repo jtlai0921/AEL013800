@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    	<!-- 點選ListView資料項時的背景顏色 -->  
+		<item android:state_pressed="true">
+			<shape> <solid android:color="#3F00003F" />
+			</shape>
+		</item>
+		<!-- 輸入焦點在ListView時的背景顏色 --> 
+		<item android:state_focused="true">
+			<shape> <solid android:color="#FFFFFFFF" />
+			</shape>
+		</item>
+		<!-- 輸入焦點不在ListView時的背景顏色 -->
+		<item android:state_focused="false">
+			<shape> <solid android:color="#3F00001F" />
+			</shape>
+		</item>  
+</selector>

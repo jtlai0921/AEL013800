@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="courses">
+        <item >Java Language</item>
+        <item >Object Oriented Programming</item>
+        <item >Android Programming</item>
+        <item >Android Game Programming</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item >Java程式語言之語法規範及用法</item>
+        <item >物件導向程式設計方法論，包括封裝、繼承、多型...</item>
+        <item >設計Android Apps應用程式</item>
+        <item >設計Android平台遊戲程式</item>
+    </string-array>
+</resources>

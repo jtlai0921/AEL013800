@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<booklist>
+  <book isbn = "978-111-818-348-9" year = "2012" language = "EN" price = "1750">
+    <title>Professional Android Sensor Programming</title>
+    <author>Greg Milette</author>
+    <publisher>Wiley</publisher>
+  </book>
+  <book isbn = "978-986-276-397-1" year = "2011" language = "TW" price = "480">
+    <title>Android初學特訓班</title>
+    <author>鄧文淵</author>
+    <publisher>碁峰</publisher>
+  </book>
+  <book isbn = "978-986-276-313-1" year = "2012" language = "TW" price = "680">
+    <title>Android應用程式開發實戰</title>
+    <author>林城</author>
+    <publisher>碁峰</publisher>
+  </book>
+  <book isbn = "978-986-201-410-3" year = "2011" language = "TW" price = "620">
+    <title>深入淺出Android遊戲程式開發範例大全</title>
+    <author>吳亞峰</author>
+    <publisher>博碩</publisher>
+  </book>
+  <book isbn = "978-143-023-930-7" year = "2012" language = "EN" price = "1750">
+    <title>Pro Android 4</title>
+    <author>Satya Komatineni</author>
+    <publisher>Apress</publisher>
+  </book>
+  <book isbn = "978-143-023-987-1" year = "2011" language = "EN" price ="1400">
+    <title>Beginning Android 4 Games Development</title>
+    <author>Mario Zechner</author>
+    <publisher>Apress</publisher>
+  </book>
+  <book isbn = "978-986-201-449-3" year = "2011" language = "TW" price = "580">
+    <title>深入淺出Android專題實作</title>
+    <author>郭宏志</author>
+    <publisher>博碩</publisher>
+  </book>
+  <book isbn = "978-986-607-200-0" year = "2012" language = "TW" price = "950">
+    <title>Android SDK開發範例大全</title>
+    <author>余志龍</author>
+    <publisher>悅知</publisher>
+  </book>
+</booklist> 

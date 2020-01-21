@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/height" >
+</TextView>
+    <EditText android:id="@+id/editHeight" android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="numberDecimal"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weight" >
+</TextView>
+    <EditText android:id="@+id/editWeight" android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="numberDecimal"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender" >
+</TextView>
+    <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:isScrollContainer="true">
+
+        <RadioButton
+            android:id="@+id/radioMan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/male" >
+</RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioWoman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female" >
+</RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnDo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/check" >
+</Button>
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result" >
+</TextView>
+
+</LinearLayout>

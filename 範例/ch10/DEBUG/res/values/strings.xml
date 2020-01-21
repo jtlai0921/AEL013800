@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">DEBUG</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Lab 10.1 - Debug</string>
+    <string name="btn_mph">計算MPH</string>
+    <string name="btn_file">寫入SD卡</string>
+
+</resources>

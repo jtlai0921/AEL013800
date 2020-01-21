@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">SIMPLE-CURSOR-ADAPTER</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Lab 14.2 - Using Simple Cursor Adapter</string>
+
+</resources>

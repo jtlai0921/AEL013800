@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_quit" android:title="@string/mi_quit" android:icon="@drawable/ic_menu_exit"></item>
+    <item android:id="@+id/menu_about" android:title="@string/mi_about" android:icon="@drawable/ic_menu_about">
+        <menu>
+    	<item android:id="@+id/menu_author" android:title="@string/mi_author"></item>
+    	<item android:id="@+id/menu_corp" android:title="@string/mi_affiliation"></item>
+    	</menu>
+    </item>
+    
+</menu>

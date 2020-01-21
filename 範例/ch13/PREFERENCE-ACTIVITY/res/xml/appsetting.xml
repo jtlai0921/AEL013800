@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="選項設定" >
+   	<PreferenceCategory android:title="系統更新" >
+		<CheckBoxPreference android:key="autoupdate" 
+		    android:title="自動更新"
+		    android:disableDependentsState="false"
+		    android:summary="自動檢查下載並安裝更新" /> 
+		<ListPreference android:key="period" 
+		    android:title="更新頻率"
+		    android:summary="選擇自動檢查更新之時間排程" 
+		    android:entries="@array/cycle" 
+		    android:entryValues="@array/cycle_value"
+		    android:dependency="autoupdate" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="個人資訊設定">
+		<EditTextPreference android:key="name"
+			android:title="姓名" 
+			android:summary="請輸入個人姓名" />
+		<PreferenceScreen android:title="其他..." 
+			android:summary="工作狀況及行動電話">
+			<CheckBoxPreference android:key="employee" 
+				android:title="上班族" />
+			<EditTextPreference android:key="cellphone" 
+				android:title="手機號碼" 
+				android:summary="請輸入手機號碼"/>
+		</PreferenceScreen>
+	</PreferenceCategory>     
+</PreferenceScreen>

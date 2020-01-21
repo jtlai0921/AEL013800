@@ -1,0 +1,13 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE book (_id INTEGER PRIMARY KEY, isbn TEXT unique not null, title TEXT not null, author TEXT, publisher TEXT, year INTEGER, language TEXT, price INTEGER);
+INSERT INTO "book" VALUES(0,'978-1-118-18348-9','Professional Android Sensor Programming','Greg Milette','Wiley',2012,'EN',1750);
+INSERT INTO "book" VALUES(1,'978-986-276-397-1','Android初學特訓班','鄧文淵','碁峰',2011,'TW',480);
+INSERT INTO "book" VALUES(2,'978-986-276-142-7','Android 2.X應用程式開發實戰','林城','碁峰',2011,'TW',680);
+INSERT INTO "book" VALUES(3,'978-986-201-410-3','深入淺出Android遊戲程式開發範例大全','吳亞峰','博碩',2011,'TW',620);
+INSERT INTO "book" VALUES(4,'978-143-023-930-7','Pro Android 4','Satya Komatineni','Apress',2012,'EN',1750);
+INSERT INTO "book" VALUES(5,'978-143-023-987-1','Beginning Android 4 Games Development','Mario Zechner','Apress',2011,'EN',1400);
+INSERT INTO "book" VALUES(6,'978-986-201-449-3','深入淺出Android專題實作','郭宏志','博碩',2011,'TW',580);
+INSERT INTO "book" VALUES(7,'978-986-607-200-0','Android SDK開發範例大全 (第3版)','余志龍','悅知',2012,'TW',950);
+CREATE INDEX bkidx on book (isbn);
+COMMIT;

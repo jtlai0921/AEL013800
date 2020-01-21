@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="musicfile">
+		<item >a_distant_shade_of_green.mp3</item>
+		<item >a_flurry_of_golden_leaves.mp3</item>
+		<item >dance_of_the_dragonfly.mp3</item>
+		<item >daydream.mp3</item>
+		<item >lines_of_vision_intersect.mp3</item>
+	</string-array>  
+	<string-array name="musicname">
+		<item >A Distant Shade Of Green</item>
+		<item >A Flurry Of Golden Leaves</item>
+		<item >Dance Of The Dragonfly</item>
+		<item >Daydream</item>
+		<item >Lines Of Vision Intersect</item>
+	</string-array> 
+    
+</resources>

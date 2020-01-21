@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">PREFERENCE-ACTIVITY</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Lab 13.2 - Using PreferenceActivity</string>
+
+</resources>

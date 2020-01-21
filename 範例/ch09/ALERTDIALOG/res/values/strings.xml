@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">ALERTDIALOG</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Lab 9.1 - Alert Dialog</string>
+    <string name="dlg_title">Android workshop</string>
+    <string name="dlg_msg">a simple alert message\ns.s.wu</string>
+
+</resources>
